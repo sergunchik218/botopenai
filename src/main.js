@@ -80,7 +80,6 @@ bot.on('voice', async (ctx) => {
     await ctx.replyWithHTML(message, keyboard);
   }
 });
-// для теста добавил комментарий
 const GROUP_ID = '-1001761385833'
 const groupLink = 'https://t.me/BotOpenAo'
 
