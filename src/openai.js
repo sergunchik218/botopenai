@@ -19,6 +19,8 @@ class OpenAI {
     }
 
     async chat(messages) {
+   
+        console.log('Error message out openai.js 23 строка', JSON.stringify(messages))
         try {
           const response = await this.openai.createChatCompletion({
                 model: 'gpt-3.5-turbo',
